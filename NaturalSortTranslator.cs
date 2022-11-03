@@ -16,7 +16,7 @@ namespace MariaDBNaturalSortExtension
     {
         private static readonly MethodInfo UseNaturalSortMethodInfo
             = typeof(NaturalSortExtensions).GetMethod(
-                nameof(NaturalSortExtensions.UseNaturalSort), new [] { typeof(string)});
+                nameof(NaturalSortExtensions.UseNaturalSort), new[] { typeof(string) });
 
         private readonly ISqlExpressionFactory _sqlExpressionFactory;
 
